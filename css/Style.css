@@ -1,0 +1,25 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+button {
+    padding: 20px;
+    font-size: larger;
+    transition: all .3s;
+}
+button:focus{
+    color: red;
+}
+#video {
+    display: none ;
+    transition: all  .4s;
+    width: 500px;
+    height: 300px;
+}
+
+#my_p {
+display: none;
+}
